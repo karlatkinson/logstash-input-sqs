@@ -1,3 +1,7 @@
+general:
+  artifacts:
+    - "pkg" 
+
 machine:
   ruby:
     version: jruby-1.7.19
