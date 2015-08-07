@@ -5,3 +5,8 @@ machine:
 test:
   post:
     - bundle exec rspec
+
+deployment:
+  production:
+    branch: production
+    commands: gem build logstash-input-sqs.gemspec
