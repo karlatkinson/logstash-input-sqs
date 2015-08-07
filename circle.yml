@@ -9,4 +9,5 @@ test:
 deployment:
   production:
     branch: master
-    commands: gem build logstash-input-sqs.gemspec
+    commands: 
+    	- gem build logstash-input-sqs.gemspec
